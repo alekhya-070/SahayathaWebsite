@@ -83,15 +83,7 @@ npm run dev
    git push origin feature/task-name
    ```
 
-## 📌 Assigned Roles
 
-| **Task**            | **Person Responsible**  |
-| ------------------- | ----------------------- |
-| Set up GitHub Repo  | Alekhya                 |
-| Frontend Setup      | [Member 1] + [Member 2] |
-| Backend Setup       | [Member 3] + [Member 4] |
-| MongoDB Integration | [Member 5]              |
-| Deployment          | [Member 6]              |
 
 ## 📬 Contact
 
