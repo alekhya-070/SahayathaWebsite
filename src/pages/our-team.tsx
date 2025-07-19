@@ -33,26 +33,18 @@ const teams = [
   {
     year: 2024,
     members: [
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092549.jpg' },
-
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092339.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092538.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG 1.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/img2.png' },
-
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092408.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092622.jpg' },
-
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092609.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092655.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092708.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092722.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092733.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092748.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092424.jpg' },
-
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092355.jpg' },
-
+      { name: 'Abhilash', role: 'President', img: '/images/zipfile2/IMG_20250719_092549.jpg' },
+      { name: 'Pranav', role: 'Vice President', img: '/images/zipfile2/IMG_20250719_092640.jpg' },
+      { name: 'Alekhya', role: 'Technical Lead', img: '/images/zipfile2/IMG_20250719_092339.jpg' },
+      { name: 'Bhuvan', role: 'Management Lead', img: '/images/zipfile2/IMG 1.jpg' },
+      { name: 'Ramakrishna', role: 'Marketing Lead', img: '/images/zipfile2/img2.png' },
+      { name: 'Juhi', role: 'Treasurer', img: '/images/zipfile2/IMG_20250719_092408.jpg' },
+      { name: 'Kavya', role: 'Design lead', img: '/images/zipfile2/IMG_20250719_092622.jpg' }, 
+      { name: 'Joushana', role: 'Design Lead', img: '/images/zipfile2/IMG_20250719_092355.jpg' },
+      { name: 'Harsha', role: 'Social Media Lead', img: '/images/zipfile2/IMG_20250719_092609.jpg' },
+      { name: 'Aditya', role: 'Photography Lead', img: '/images/zipfile2/IMG_20250719_092722.jpg' },
+      { name: 'Piyush', role: 'Core Member', img: '/images/zipfile2/IMG_20250719_092424.jpg' },
+      { name: 'Jaasmita', role: 'Content Lead', img: '/images/zipfile2/img345.jpg' },
     ],
   },
   {
