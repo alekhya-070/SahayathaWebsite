@@ -8,7 +8,6 @@ const teams = [
     year: 2023,
     members: [
       { name: 'Core Member', role: '2023 Batch', img: '/images/zipfile1/IMG_20250719_090951.jpg' },
-      { name: 'Core Member', role: '2023 Batch', img: '/images/zipfile1/IMG_20250719_091012.jpg' },
       { name: 'Core Member', role: '2023 Batch', img: '/images/zipfile1/IMG_20250719_091053.jpg' },
       { name: 'Core Member', role: '2023 Batch', img: '/images/zipfile1/IMG_20250719_091109.jpg' },
       { name: 'Core Member', role: '2023 Batch', img: '/images/zipfile1/IMG_20250719_091123.jpg' },
