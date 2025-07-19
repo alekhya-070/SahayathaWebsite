@@ -34,8 +34,7 @@ const teams = [
     year: 2024,
     members: [
       { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092549.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092640.jpg' },
-      
+
       { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092339.jpg' },
       { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092538.jpg' },
       { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG 1.jpg' },
