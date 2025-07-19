@@ -34,7 +34,6 @@ const teams = [
     year: 2024,
     members: [
       { name: 'Abhilash', role: 'President', img: '/images/zipfile2/IMG_20250719_092549.jpg' },
-      { name: 'Pranav', role: 'Vice President', img: '/images/zipfile2/IMG_20250719_092640.jpg' },
       { name: 'Alekhya', role: 'Technical Lead', img: '/images/zipfile2/IMG_20250719_092339.jpg' },
       { name: 'Bhuvan', role: 'Management Lead', img: '/images/zipfile2/IMG 1.jpg' },
       { name: 'Ramakrishna', role: 'Marketing Lead', img: '/images/zipfile2/img2.png' },
