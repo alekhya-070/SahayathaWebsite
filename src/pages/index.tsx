@@ -53,7 +53,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center">
             <div className="rounded-xl w-full h-[220px] bg-gray-100 flex items-center justify-center mb-4 border border-gray-300">
-              <span className="text-gray-400">Image Placeholder</span>
+              <img src="/images/img123.png" alt="Code for a Cause" className="rounded-xl w-full h-[220px] object-cover mb-4" />
             </div>
             <h3 className="text-lg font-bold mb-2">Code for a Cause</h3>
             <p className="text-gray-700 mb-4 text-center">A coding event blending technical skill-building and social impact, with proceeds supporting education for underprivileged children.</p>
