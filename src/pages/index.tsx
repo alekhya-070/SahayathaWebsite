@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center mt-8">
-          <a href="#" className="px-6 py-3 rounded-xl font-bold bg-accent text-black hover:bg-accent/80 transition-all text-lg flex items-center gap-2">View More <span>&rarr;</span></a>
+          <a href="/events" className="px-6 py-3 rounded-xl font-bold bg-accent text-black hover:bg-accent/80 transition-all text-lg flex items-center gap-2">View More <span>&rarr;</span></a>
         </div>
       </section>
 
@@ -78,9 +78,7 @@ export default function Home() {
             <img key={i} src={`/images/image ${i}.png`} alt={`Gallery ${i}`} className="w-full h-40 object-cover rounded-xl" />
           ))}
         </div>
-        <div className="flex justify-center">
-          <a href="#" className="px-6 py-3 rounded-xl font-bold bg-accent text-black hover:bg-accent/80 transition-all text-lg flex items-center gap-2">View All <span>&rarr;</span></a>
-        </div>
+        
       </section>
 
       <Footer />
