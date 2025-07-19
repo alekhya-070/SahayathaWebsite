@@ -39,7 +39,7 @@ const teams = [
 
       { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092339.jpg' },
       { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092538.jpg' },
-      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG 1' },
+      { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG 1.jpg' },
 
       { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092408.jpg' },
       { name: 'Core Member', role: '2024 Batch', img: '/images/zipfile2/IMG_20250719_092622.jpg' },
