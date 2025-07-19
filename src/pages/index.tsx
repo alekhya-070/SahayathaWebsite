@@ -1,115 +1,89 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <div
-      className={`${geistSans.className} ${geistMono.className} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
-    >
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/pages/index.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <>
+      <Navbar />
+      {/* Hero Section */}
+      <section className="relative h-[480px] flex items-center justify-center">
+        <img src="/images/image 2.png" alt="Girl writing on board" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-black/40" />
+        <div className="relative z-10 flex flex-col items-start max-w-2xl px-8">
+          <h1 className="text-5xl font-extrabold text-white mb-4">Sahayatha</h1>
+          <p className="text-xl text-white mb-6">Empowering Education for Every Girl Child</p>
+          {/* Removed Join Us and Donate Now buttons as per request */}
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+      </section>
+
+      {/* About Section */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12">
+          <img src="/images/image 3.png" alt="Girls reading" className="rounded-xl w-full md:w-[340px] h-[260px] object-cover" />
+          <div className="flex-1">
+            <h2 className="text-2xl font-bold mb-2"><span className="text-violet">About</span> Sahayatha</h2>
+            <p className="mb-6 text-gray-700">Sahayatha is a purpose-driven social club that is dedicated to supporting underprivileged girl children on their educational journey. The club's primary mission is to provide children from disadvantaged backgrounds with access to quality education. By doing so, Sahayatha aims to empower these young minds, bridge the educational gap, and create a brighter future.</p>
+            <div className="flex gap-8 mb-6">
+              <div className="text-center">
+                <div className="text-2xl font-bold">50+</div>
+                <div className="text-sm text-gray-600">Girls Supported</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold">10+</div>
+                <div className="text-sm text-gray-600">Events Organized</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl font-bold">100+</div>
+                <div className="text-sm text-gray-600">Volunteers Engaged</div>
+              </div>
+            </div>
+              <a href="/about" className="px-6 py-3 rounded-xl font-bold bg-accent text-black hover:bg-accent/80 transition-all text-lg">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Events Section */}
+      <section className="py-20 px-6 bg-white">
+        <h2 className="text-2xl font-bold text-center mb-8"><span className="text-violet">Featured</span> Events</h2>
+        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="flex flex-col items-center">
+            <img src="/images/image 22.png" alt="Vedic Math Workshop" className="rounded-xl w-full h-[220px] object-cover mb-4" />
+            <h3 className="text-lg font-bold mb-2">Vedic Math Workshop</h3>
+            <p className="text-gray-700 mb-4 text-center">Transformative workshop combining Vedic Mathematics, career guidance, and sports activities to foster academic, personal, and physical development among students.</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <div className="rounded-xl w-full h-[220px] bg-gray-100 flex items-center justify-center mb-4 border border-gray-300">
+              <span className="text-gray-400">Image Placeholder</span>
+            </div>
+            <h3 className="text-lg font-bold mb-2">Code for a Cause</h3>
+            <p className="text-gray-700 mb-4 text-center">A coding event blending technical skill-building and social impact, with proceeds supporting education for underprivileged children.</p>
+          </div>
+        </div>
+        <div className="flex justify-center mt-8">
+          <a href="#" className="px-6 py-3 rounded-xl font-bold bg-accent text-black hover:bg-accent/80 transition-all text-lg flex items-center gap-2">View More <span>&rarr;</span></a>
+        </div>
+      </section>
+
+      {/* Upcoming Events Section */}
+
+
+      {/* Contribute section removed as per request */}
+
+      {/* Gallery Section */}
+      <section className="py-20 px-6 bg-white">
+        <h2 className="text-2xl font-bold text-center mb-2">Gallery</h2>
+        <p className="text-center text-gray-600 mb-8">Our club in action</p>
+        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+          {[9,10,11,12,13,14,15,16].map((i) => (
+            <img key={i} src={`/images/image ${i}.png`} alt={`Gallery ${i}`} className="w-full h-40 object-cover rounded-xl" />
+          ))}
+        </div>
+        <div className="flex justify-center">
+          <a href="#" className="px-6 py-3 rounded-xl font-bold bg-accent text-black hover:bg-accent/80 transition-all text-lg flex items-center gap-2">View All <span>&rarr;</span></a>
+        </div>
+      </section>
+
+      <Footer />
+    </>
+  )
 }
