@@ -44,7 +44,7 @@ const teams = [
       { name: 'Harsha', role: 'Social Media Lead', img: '/images/zipfile2/IMG_20250719_092609.jpg' },
       { name: 'Aditya', role: 'Photography Lead', img: '/images/zipfile2/IMG_20250719_092722.jpg' },
       { name: 'Piyush', role: 'Core Member', img: '/images/zipfile2/IMG_20250719_092424.jpg' },
-      { name: 'Jaasmita', role: 'Content Lead', img: '/images/zipfile2/img345.jpg' },
+      { name: 'Jaasmita', role: 'Content Lead', img: '/images/zipfile2/img345.jpg'},
     ],
   },
   {
